@@ -12,7 +12,7 @@ import Companies from '@/components/landing/Companies'
 import Image from "next/image"
 import logo from '@/public/images/logo.png'
 import Aboutus from '@/components/landing/Aboutus'
-
+import Awards from '@/components/landing/Awards'
 
 const page = () => {
     const navItems = [
@@ -33,7 +33,11 @@ const page = () => {
           link: "#News",
         },
         {
-          name: "Aboutus",
+          name: "Awards",
+          link: "#Awards",
+        },
+        {
+          name: "About Us",
           link: "#Aboutus",
         },
         {
@@ -76,6 +80,11 @@ const page = () => {
 
                 <div id='News'>
                 <News/>      
+                </div>  
+                <Separator/>
+
+                <div id='Awards'>
+                <Awards/>      
                 </div>  
                 <Separator/>
 

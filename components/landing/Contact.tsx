@@ -35,7 +35,9 @@ const Contact = () => {
       <div className='flex justify-center items-center'>
         <div>
           <a href="https://brandfetch.com/developers/logo-api" className="text-sm text-gray-600 hover:text-gray-800">Logos by Brandfetch</a>
-        </div>
+          <br></br>
+          <a className="text-sm text-gray-600">Copyright © 2024 Modular Clinton Global<br></br>All Rights Reserved</a>
+          </div>
       </div>
     </div>
   );
